@@ -12,6 +12,7 @@
 		480E0A662992C28400529BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480E0A652992C28400529BDB /* Assets.xcassets */; };
 		480E0A692992C28400529BDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480E0A682992C28400529BDB /* Preview Assets.xcassets */; };
 		480E0A712992C37A00529BDB /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 480E0A6F2992C37A00529BDB /* Main.xcdatamodeld */; };
+		487D67B029939ADB0000B541 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D67AF29939ADB0000B541 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,9 @@
 		480E0A652992C28400529BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		480E0A682992C28400529BDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		480E0A702992C37A00529BDB /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		487D67AF29939ADB0000B541 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		487D67B12993AB800000B541 /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
+		487D67B22993AB9A0000B541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,11 @@
 		480E0A602992C28300529BDB /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				487D67B22993AB9A0000B541 /* Info.plist */,
+				487D67B12993AB800000B541 /* UltimatePortfolio.entitlements */,
 				480E0A612992C28300529BDB /* UltimatePortfolioApp.swift */,
 				480E0A632992C28300529BDB /* ContentView.swift */,
+				487D67AF29939ADB0000B541 /* DataController.swift */,
 				480E0A6F2992C37A00529BDB /* Main.xcdatamodeld */,
 				480E0A652992C28400529BDB /* Assets.xcassets */,
 				480E0A672992C28400529BDB /* Preview Content */,
@@ -141,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				480E0A712992C37A00529BDB /* Main.xcdatamodeld in Sources */,
+				487D67B029939ADB0000B541 /* DataController.swift in Sources */,
 				480E0A642992C28300529BDB /* ContentView.swift in Sources */,
 				480E0A622992C28300529BDB /* UltimatePortfolioApp.swift in Sources */,
 			);
@@ -268,12 +276,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
 				DEVELOPMENT_TEAM = LXSSTNCP9V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,12 +307,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
 				DEVELOPMENT_TEAM = LXSSTNCP9V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
