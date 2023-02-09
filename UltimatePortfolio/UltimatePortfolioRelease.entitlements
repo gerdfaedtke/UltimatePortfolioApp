@@ -6,7 +6,7 @@
 	<string>development</string>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array>
-		<string>iCloud.com.gerd.faedtke-icloud.UltimatePortfolio</string>
+		<string>iCloud.com.gerd.faedtke.UltimatePortfolio</string>
 	</array>
 	<key>com.apple.developer.icloud-services</key>
 	<array>
