@@ -74,4 +74,15 @@ class DataController: ObservableObject {
         
         }
     }
+    
+    func deletteAll() {
+        let request1: NSFetchRequest<NSFetchRequestResult> = Tag.fetchRequest()
+        delete(request1)
+        
+        let request2: NSFetchRequest<NSFetchRequestResult> = Issue.fetchRequest()
+        delete(request2)
+        
+        save()
+        
+    }
 }
